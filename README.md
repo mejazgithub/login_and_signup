@@ -13,9 +13,23 @@ using rest_framework, rest_framework_simple_jwt and rest_framework_apikey.
     
     1. python manage.py makemigrations
     2. python manage.py migrate
-    
-# 3. Runserver and hit the URL's
 
-    1. http://localhost:8000/api/accounts/signup/ 
-    2. http://localhost:8000/api/accounts/signin/ 
+# 4. Create a super user using command 
+     python manage.py createsuperuser
+
+# 5. Runserver and login to admin panel
+
+# 6. create an apikey using ApiKey model from admin panel 
+
+# 7. copy the apikey and add it into your header with Apikey prefix 
+     
+     1. for example:  headers = {"apikey": "Api-Key yourapikey"}
+     
+     2. if you are using postman
+     ![Alt text](![apikey-example](https://user-images.githubusercontent.com/75315169/186417415-e6ab1a40-f868-4481-89b6-8a35a384aed6.png))
+     
+# 8. hit the URL's
+
+    1. http://localhost:8000/api/accounts/signup/  for creating a user 
+    2. http://localhost:8000/api/accounts/signin/  for sign in
 
