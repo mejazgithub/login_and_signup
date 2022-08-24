@@ -21,7 +21,7 @@ using rest_framework, rest_framework_simple_jwt and rest_framework_apikey with a
 
 # 6. create an apikey using ApiKey model from admin panel 
 
-# 7. copy the apikey and add it into your header with Apikey prefix 
+# 7. copy the apikey and add it into your header with Api-key prefix 
      
      1. for example:  headers = {"apikey": "Api-Key yourapikey"}
      
