@@ -26,7 +26,7 @@ using rest_framework, rest_framework_simple_jwt and rest_framework_apikey.
      1. for example:  headers = {"apikey": "Api-Key yourapikey"}
      
      2. if you are using postman
-     ![Alt text](https://user-images.githubusercontent.com/75315169/186417415-e6ab1a40-f868-4481-89b6-8a35a384aed6.png "postman_apikey-example")
+     <img src="![apikey-example](https://user-images.githubusercontent.com/75315169/186418311-11966c83-7170-4e26-bb18-766d58803424.png)" alt="Alt text" title="Optional title">
      
 # 8. hit the URL's
 
