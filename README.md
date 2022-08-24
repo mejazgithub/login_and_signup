@@ -7,9 +7,13 @@ using rest_framework, rest_framework_simple_jwt and rest_framework_apikey.
 
 # 2. install requirement.txt using command " pip install -r requiremnet.txt"
 
+# 3. Run migrations using command
+    
+    1. python manage.py makemigrations
+    2. python manage.py migrate
+    
 # 3. Runserver and hit the URL's
 
     1. http://localhost:8000/api/accounts/signup/ 
-
     2. http://localhost:8000/api/accounts/signin/ 
 
