@@ -7,13 +7,10 @@ from rest_framework import status
 
 
 # Create your views here.
-class UserListCreateView(generics.ListCreateAPIView):
+class SignupView(generics.ListCreateAPIView):
     permission_classes  = [HasAPIKey]
-    serializer_class    = UserListCreateSerializer
+    serializer_class    = SignupSerializer
     queryset            = User.objects.all().order_by('-id')
-
-    def get(self, request, *args, **kwargs):
-        return super().get(request, *args, **kwargs)
 
     def post(self, request, *args, **kwargs):
         return super().post(request, *args, **kwargs)

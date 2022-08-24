@@ -3,7 +3,7 @@ from .models import *
 from rest_framework import status
 from rest_framework_simplejwt.tokens import RefreshToken
 
-class UserListCreateSerializer(serializers.ModelSerializer):
+class SignupSerializer(serializers.ModelSerializer):
     password            =   serializers.CharField(max_length= 100, required= True,style={'input_type': 'password'},write_only=True)
     class Meta:
         model = User
