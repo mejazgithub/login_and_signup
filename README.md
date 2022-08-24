@@ -5,7 +5,9 @@ using rest_framework, rest_framework_simple_jwt and rest_framework_apikey.
 
 # 1. Create a virtual enviroment and activate it 
 
-# 2. install requirement.txt using command " pip install -r requiremnet.txt"
+# 2. install requirement.txt using command 
+     
+     pip install -r requiremnet.txt
 
 # 3. Run migrations using command
     
